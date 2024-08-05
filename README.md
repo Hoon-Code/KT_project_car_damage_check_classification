@@ -28,28 +28,32 @@
 ## ✔️핵심사항
 ![image](https://github.com/user-attachments/assets/9a8729c4-7ec5-4aa0-82fc-7425f3b7438e)
 ---
-## 데이터 전처리
+## ✔️데이터 전처리
 
 - 정상 차량 이미지 불러와서 이미지 및 shape 확인
+
 ![image](https://github.com/user-attachments/assets/35f8237a-468f-49e9-98f6-010c5f8306ad)
 
 - 파손 차량 이미지 불러와서 이미지 및 shape 확인
+
 ![image](https://github.com/user-attachments/assets/b8ab78b6-c6e1-4b37-b560-bd9a1996e936)
 
 1) 클래스 만들어서 정상 차량 이미지 와 파손 차량 이미지 만큼 라벨 만든후 합쳐주기
+
 ![image](https://github.com/user-attachments/assets/be4f5585-72fb-4724-9224-a2bf266cc0f2)
 
 2) 전체 이미지 데이터를 하나의 리스트로 통합후 데이터 셋 분리 및 이미지를 넘파이 배열 형태로 변환
+
 ![image](https://github.com/user-attachments/assets/7814cc5a-1cc5-4a04-88c9-53658702c2cf)
 ![image](https://github.com/user-attachments/assets/efff51b3-98d8-40c6-a3b2-ed8b32f2c6e1)
 ![image](https://github.com/user-attachments/assets/4c9dd840-d28b-4cb5-a29e-b5357a128304)
 
-## 모델링 1)
+## ✔️모델링 1)
 
 ![image](https://github.com/user-attachments/assets/742fc6b9-a149-45c4-b148-46997dae9e00)
 ![image](https://github.com/user-attachments/assets/a077504b-b00c-43be-a0c5-50a3f95c8862)
 
-## 모델링 2)
+## ✔️모델링 2)
 
 - **image_dataset_from_directory를 이용해 training set, validation set을 만들기**
 
